@@ -1,0 +1,24 @@
+//Accept the string from user print the pattern
+
+#include<stdio.h>
+
+void Display(int Arr[],int iSize)    // recursive approach
+{
+	
+	int iCnt = 0;
+	
+	while(iCnt < iSize)
+	{
+		printf("%d\n",Arr[iCnt]);
+		iCnt++;
+	}
+}
+
+int main()
+{
+	int Brr[5] = {10,20,30,40,50};
+	
+	Display(Brr,5);
+
+	return 0;
+}
